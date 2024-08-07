@@ -1,6 +1,13 @@
+import 'package:doctorapp/core/routing/app_router.dart';
+import 'package:doctorapp/doc_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+<<<<<<< HEAD
+  runApp(DocApp(
+    appRouter: AppRouter(),
+  ));
+=======
   runApp(const MyApp());
 }
 
@@ -123,4 +130,5 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
+>>>>>>> development
 }
