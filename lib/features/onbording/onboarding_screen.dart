@@ -18,11 +18,11 @@ class OnBoardingScreen extends StatelessWidget {
             padding: EdgeInsets.only(top: 30.h),
             child: Column(
               children: [
-                DocLogoAndName(),
+                const DocLogoAndName(),
                 SizedBox(
                   height: 30.h,
                 ),
-                DoctorImageAndText(),
+                const DoctorImageAndText(),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 30.w),
                   child: Column(
@@ -35,7 +35,7 @@ class OnBoardingScreen extends StatelessWidget {
                       SizedBox(
                         height: 30.h,
                       ),
-                      GetStardButton()
+                      const GetStardButton()
                     ],
                   ),
                 )
